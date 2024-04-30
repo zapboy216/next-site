@@ -22,13 +22,6 @@ const BaseTemplate = (props: {
     <div className="w-full px-20 py-10 text-gray-700 antialiased">
       <div className="mx-auto max-w-screen-md lg:max-w-full">
         <header className="border-b border-gray-300 px-10">
-          <div className="pt-8">
-            <h1 className="text-3xl font-bold text-gray-900">
-              {AppConfig.name}
-            </h1>
-            <h2 className="text-xl">{t('description')}</h2>
-          </div>
-
           <div className="flex items-center justify-between">
             <HamburgerMenu isOpen={isMenuOpen} toggle={toggleMenu} />
             <nav className={`${isMenuOpen ? 'block' : 'hidden'} lg:block`}>
@@ -44,6 +37,10 @@ const BaseTemplate = (props: {
             </nav>
           </div>
         </header>
+        <div className="pt-8">
+          <h1 className="text-3xl font-bold text-gray-900">{AppConfig.name}</h1>
+          <h2 className="text-xl">{t('description')}</h2>
+        </div>
 
         <main>{props.children}</main>
       </div>
