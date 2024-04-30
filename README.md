@@ -1,3 +1,3 @@
-# A Next.js Boilerplate with AI CoPilot
+# A Next.js Boilerplate
 
 
