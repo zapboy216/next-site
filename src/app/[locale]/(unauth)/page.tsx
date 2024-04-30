@@ -19,7 +19,7 @@ export default function Index() {
         <h1>Hello World</h1>
       </div>
       <div>
-        <h2>Hello World</h2>
+        <h2>Index</h2>
       </div>
     </>
   );
