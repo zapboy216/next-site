@@ -16,7 +16,7 @@ export default function Index() {
   return (
     <>
       <div>
-        <h1>Hello World</h1>
+        <h1>Hello World Again</h1>
       </div>
       <div>
         <h2>Index</h2>
